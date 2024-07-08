@@ -1,5 +1,5 @@
-const Organisation = require('../models/organisation');
-const User = require('../models/user');
+const Organisation = require('../models/organisations');
+const User = require('../models/users');
 
 const getOrganisations = async (req, res) => {
   const { userId } = req.user;
